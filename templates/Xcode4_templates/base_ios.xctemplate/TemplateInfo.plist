@@ -129,9 +129,57 @@
 			<key>Path</key>
 			<string>Resources/iTunesArtwork</string>
 		</dict>
-	</dict>
+		<key>Resources/bug@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/bug@2x.png</string>
+		</dict>
+		<key>Resources/close@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/close@2x.png</string>
+		</dict>
+		<key>Resources/file@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/file@2x.png</string>
+		</dict>
+		<key>Resources/folder@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/folder@2x.png</string>
+		</dict>
+		<key>Resources/heat@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/heat@2x.png</string>
+		</dict>
+		<key>Resources/tap@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/tap@2x.png</string>
+		</dict>
+	</dict>	
 	<key>Nodes</key>
 	<array>
+		<string>Resources/bug@2x.png</string>
+		<string>Resources/close@2x.png</string>
+		<string>Resources/file@2x.png</string>
+		<string>Resources/folder@2x.png</string>
+		<string>Resources/heat@2x.png</string>
+		<string>Resources/tap@2x.png</string>
 		<string>Resources/Default.png</string>
 		<string>Resources/Default@2x.png</string>
 		<string>Resources/Default-568h@2x.png</string>
