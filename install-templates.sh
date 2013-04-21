@@ -188,11 +188,11 @@ copy_xcode4_project_templates(){
 	DST_DIR="$HOME/Library/Developer/Xcode/Templates/File Templates/$BEE_IOS_DST_DIR/"
 	OLD_DIR="$HOME/Library/Developer/Xcode/Templates/$BEE_IOS_DST_DIR/"
 	
-	print_template_banner "Installing Xcode 4 CCNode file templates..."
+	print_template_banner "Installing Xcode 4 BeeUIBoard file templates..."
 
 	check_dst_dir
 	
-	mv -f "$OLD_DIR""/CCNode class.xctemplate" "$DST_DIR"
+	mv -f "$OLD_DIR""/BeeUIBoard class.xctemplate" "$DST_DIR"
 	
 	echo done!
 }

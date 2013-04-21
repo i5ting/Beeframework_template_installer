@@ -55,12 +55,14 @@
 		</dict>
 		<key>libsqlite3.0.dylib</key>
         <dict>
-                <key>Path</key>
-                <string>/usr/lib/libsqlite3.0.dylib</string>
-                <key>PathType</key>
-                <string>Absolute</string>
-                <key>FileType</key>
-                <string>wrapper.framework</string>
+			<key>Group</key>
+			<string>Supporting Files</string>
+            <key>Path</key>
+            <string>/usr/lib/libsqlite3.0.dylib</string>
+            <key>PathType</key>
+            <string>Absolute</string>
+            <key>FileType</key>
+            <string>wrapper.framework</string>
         </dict>
 		<key>libxml2.dylib</key>
         <dict>

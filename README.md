@@ -19,6 +19,18 @@
 	...creating destination directory: /Users/sang/Library/Developer/Xcode/Templates/File Templates/beeframework-ios v0.x/
 	done!
 
+
+## 文件模板类型
+根据模板文件，创建自己的BeeUIBoard实现，加快实现速度，可以达到最大程度的复用。（**如果你不满意这个模板，我希望听到你的声音**）
+
+### BeeUIBoard
+
+
+
+### BeeUITableBoard
+
+
+
 ## 说明
 
 目前该模板是基于Beeframework v0.3版本的，所以对之前的版本可能不兼容，待改进。
