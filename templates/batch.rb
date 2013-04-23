@@ -10,6 +10,6 @@ Dir.foreach('./mybuild') do |f|
   if /lib/ =~ f
     p f
     #`cd #{f} &&ruby t.rb && cp -f TemplateInfo.xml #{dest_dir}/#{f}/TemplateInfo.plist &&cp -f TemplateInfo.xml #{dest_dir}/#{f}/TemplateInfo.plist`
-    `cd ./mybuild/#{f} && tif_create && cp -f TemplateInfo.xml ../../Xcode4_templates/#{f}/TemplateInfo1.plist `
+    `cd ./mybuild/#{f} && tif_create && cp -f TemplateInfo.plist ../../Xcode4_templates/#{f}/TemplateInfo.plist `
   end
 end  
