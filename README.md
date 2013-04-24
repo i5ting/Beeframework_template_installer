@@ -27,15 +27,15 @@
 
 1. 首先安装一个ruby的gem即：TemplateInfo（用于创建TemplateInfo.plist文件的）
 
-	$ gem install TemplateInfo 
+		$ gem install TemplateInfo 
 	
 
 2. 把install-templates.sh 和 templates目录放到Beeframework目录内
 	
-	$ cd templates
-	$ ruby batch.rb
-	$ cd ../
-	$ ./install-templates.sh -f
+		$ cd templates
+		$ ruby batch.rb
+		$ cd ../
+		$ ./install-templates.sh -f
 	
 3. 出现下列文字即安装完成：
 
