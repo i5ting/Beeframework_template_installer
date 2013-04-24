@@ -60,6 +60,18 @@
 
 目前该模板是基于Beeframework v0.3版本的，所以对之前的版本可能不兼容，待改进。
 
+### 问题1：无权限
+
+
+	mkdir: /Users/yourUserName/Library/Developer/Xcode/Templates/File Templates/beeframework-ios v0.x: Permission denied
+	mv: rename /Users/yourUserName/Library/Developer/Xcode/Templates/beeframework-ios v0.x//BeeUIBoard class.xctemplate to /Users/ManTung/Library/Developer/Xcode/Templates/File Templates/beeframework-ios v0.x/: No such file or directory
+
+解决方案：
+	sudo chown -R yourUserName  ～/Library
+
+
+more....
+
 ## 欢迎fork和反馈
 
 在issue提问或邮件shiren1118@126.com
