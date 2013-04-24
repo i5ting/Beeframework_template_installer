@@ -9,9 +9,10 @@
 ![最终目录](doc/1.1.png)
 
 ## 安装
+
 在终端中，cd切换到Beeframework目录内，然后执行命令:
 
-	./install-templates.sh -f
+	$ ./install-templates.sh -f
 	
 出现下列文字即安装完成：
 
@@ -19,6 +20,30 @@
 	...creating destination directory: /Users/sang/Library/Developer/Xcode/Templates/File Templates/beeframework-ios v0.x/
 	done!
 
+
+## 完全安装
+
+这里指的是BeeFramework有变动的时候（如增删文件，需要重新生成TemplateInfo.plist文件）
+
+1. 首先安装一个ruby的gem即：TemplateInfo（用于创建TemplateInfo.plist文件的）
+
+	$ gem install TemplateInfo 
+	
+
+2. 把install-templates.sh 和 templates目录放到Beeframework目录内
+	
+	$ cd templates
+	$ ruby batch.rb
+	$ cd ../
+	$ ./install-templates.sh -f
+	
+3. 出现下列文字即安装完成：
+
+		removing old libraries: /Users/sang/Library/Developer/Xcode/Templates/File Templates/beeframework-ios v0.x/
+		...creating destination directory: /Users/sang/Library/Developer/Xcode/Templates/File Templates/beeframework-ios v0.x/
+		done!
+		
+完成!去创建一个项目试试吧
 
 ## 文件模板类型
 根据模板文件，创建自己的BeeUIBoard实现，加快实现速度，可以达到最大程度的复用。（**如果你不满意这个模板，我希望听到你的声音**）
@@ -37,4 +62,4 @@
 
 ## 欢迎fork和反馈
 
-shiren1118@126.com
+在issue提问或邮件shiren1118@126.com
