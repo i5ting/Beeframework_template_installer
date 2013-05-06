@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version='1.0'>
+    <dict>
+        <key>Description</key>
+        <string>This is a template description.</string>
+        <key>Identifier</key>
+        <string>com.beeframework.lib_openudid.lib</string>
+        <key>Kind</key>
+        <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+        <key>Definitions</key>
+        <dict>
+            <key>libs/OpenUDID/OpenUDID.h</key>
+            <dict>
+                <key>Group</key>
+                <array>
+                    <string>libs</string>
+                    <string>lib_openudid</string>
+                    <string>OpenUDID</string>
+                </array>
+                <key>Path</key>
+                <string>libs/OpenUDID/OpenUDID.h</string>
+                <key>TargetIndices</key>
+                <array/>
+            </dict>
+            <key>libs/OpenUDID/OpenUDID.m</key>
+            <dict>
+                <key>Group</key>
+                <array>
+                    <string>libs</string>
+                    <string>lib_openudid</string>
+                    <string>OpenUDID</string>
+                </array>
+                <key>Path</key>
+                <string>libs/OpenUDID/OpenUDID.m</string>
+            </dict>
+        </dict>
+        <key>Nodes</key>
+        <array>
+            <string>libs/OpenUDID/OpenUDID.h</string>
+            <string>libs/OpenUDID/OpenUDID.m</string>
+        </array>
+    </dict>
+</plist>

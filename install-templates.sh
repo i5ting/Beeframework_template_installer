@@ -134,7 +134,7 @@ copy_xcode4_project_templates(){
 
 	echo done!
 
-	# External
+	# External  以后遍历libs的目录，不然改不起啊
 	# - asi
 	# - fmdb
 	# - jsonkit
@@ -174,6 +174,13 @@ copy_xcode4_project_templates(){
 	mkdir -p "$LIBS_DIR"
 	echo ...copying touchXML files
 	copy_files External/TouchXML "$LIBS_DIR"
+	echo done!
+	
+	print_template_banner "Installing Xcode 4 OpenUDID iOS template"
+	LIBS_DIR="$DST_DIR""lib_openudid.xctemplate/libs/"
+	mkdir -p "$LIBS_DIR"
+	echo ...copying OpenUDID files
+	copy_files External/OpenUDID "$LIBS_DIR"
 	echo done!
 	
 	

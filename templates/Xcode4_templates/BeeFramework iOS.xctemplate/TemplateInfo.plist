@@ -15,7 +15,8 @@
 		<string>com.beeframework.lib_reachabilitiy.lib</string>
 		<string>com.beeframework.lib_touchXML.lib</string>
 		<string>com.beeframework.lib_asi.lib</string>		
-		<string>com.beeframework.lib_examples.lib</string>		
+		<string>com.beeframework.lib_examples.lib</string>	
+		<string>com.beeframework.lib_openudid.lib</string>	
 	</array>
 	<key>Concrete</key>
 	<true/>
