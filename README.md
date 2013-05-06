@@ -2,6 +2,13 @@
 
 这是基于老郭的Beeframework做的xcode4的项目模板。
 
+
+v0.3.1说明：
+
+- example里会有2处过期api，删除即可
+- 增加了openudid库
+- Prefix.pch文件里增加bee.h引用
+
 ## 准备工作
 
 把install-templates.sh 和 templates目录放到Beeframework目录内
