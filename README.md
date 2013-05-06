@@ -3,7 +3,8 @@
 这是基于老郭的Beeframework做的xcode4的项目模板。
 
 
-v0.3.1说明：
+
+## v0.3.1说明：
 
 - example里会有2处过期api，删除即可
 - 增加了openudid库
