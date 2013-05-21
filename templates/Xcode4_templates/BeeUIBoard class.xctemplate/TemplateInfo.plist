@@ -33,6 +33,7 @@
 			<array>
 				<string>BeeUITableBoard</string>
 				<string>BeeUIBoard</string>
+				<string>BeeController</string>
 			</array>
 		</dict>
 	</array>
